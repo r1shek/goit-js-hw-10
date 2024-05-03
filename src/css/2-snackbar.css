@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+}
+
+.menu-link {
+  display: block;
+  margin-bottom: 10px; /* Додамо відступ між посиланням і формою */
+}
+
+fieldset {
+  max-width: 300px; /* Задаємо максимальну ширину для контейнера радіокнопок */
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Додамо відступ між елементами форми */
+}
+
+input[type='number'],
+input[type='radio'] {
+  margin-right: 10px;
+}
+
+button[type='submit'] {
+  margin-top: 10px;
+  padding: 10px 20px; /* Додамо внутрішні відступи для кнопки */
+}
